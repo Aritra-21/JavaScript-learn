@@ -42,7 +42,7 @@ const max = 20;
 // Important formula
 console.log(Math.floor(Math.random() * (max - min + min)));
 // 14
-
+ 
 
 
 
