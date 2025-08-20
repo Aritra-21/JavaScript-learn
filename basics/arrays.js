@@ -3,15 +3,15 @@
 
 // in js array is resizable 
 
-const myArr = [0, 1, 2, "Aritra", true]
+// const myArr = [0, 1, 2, "Aritra", true]
 // console.log(myArr[3]);
 // // Aritra
 
-const myHeros = ["srk", "selmon vai"]
+// const myHeros = ["srk", "selmon vai"]
 
-// Arr obj
-const myArr2 = new Array(1, 2, 3, 4)
-// Access elemenonsole.log(myArr2[1]);
+// // Arr obj
+// const myArr2 = new Array(1, 2, 3, 4)
+// // Access elemenonsole.log(myArr2[1]);
 
 // Arrays Methods
 // Push -> Add values in Array
@@ -61,22 +61,24 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Slice, Splice
 
-console.log("A", myArr);
+// console.log("A", myArr);
 // A [ 0, 1, 2, 'Aritra', true ]
 
-const myn1 = myArr.slice(1, 3)
+// const myn1 = myArr.slice(1, 3)
 
-console.log(myn1);
-// [ 1, 2 ] -> return the value between inede no. 1 and 3 it will return ind no. 1,2 
+// console.log(myn1);
+// // [ 1, 2 ] -> return the value between inede no. 1 and 3 it will return ind no. 1,2 
 
-console.log("B ", myArr);
+// console.log("B ", myArr);
 // B  [ 0, 1, 2, 'Aritra', true ] -> slice did not manipulate data
 
-const myn2 = myArr.splice(1,3)
-console.log("C ", myArr);
-// C  [ 0, true] -> Splice removed data of indx no. 1,2,3
-console.log(myn2);
+// const myn2 = myArr.splice(1,3)
+// console.log("C ", myArr);
+// // C  [ 0, true] -> Splice removed data of indx no. 1,2,3
+// console.log(myn2);
 // [ 1, 2, 'Aritra']
+
+
 
 
 
